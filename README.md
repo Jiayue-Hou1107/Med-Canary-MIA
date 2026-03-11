@@ -43,7 +43,9 @@ We utilize clinical notes from the **MIMIC-IV v2.2 Notes** dataset. The focus is
   - **Test**: 900 samples
 - **Privacy Enhancement**: To simulate real-world medical data and evaluate privacy risks, we augmented the de-identified MIMIC notes with synthetic **Quasi-Identifiers (Q-IDs)**, including:
   - Full Name, Phone Number, Social Security Number (SSN), Zip Code, Gender, and Age.
-- **Note on Data Access**: Due to MIMIC-IV data use agreements, the dataset cannot be publicly shared. Users must obtain their own license through PhysioNet and place the processed data in the `clin-bhc-summ/` directory.
+-  **File Format**: After splitting the dataset into training, validation, and test sets, please organize them into three pairs of `.tok` files (resulting in a total of 6 files), such as `training.findings.tok` and `training.impressions.tok`. In this context, **findings** represents the full Clinical Notes, while **impressions** represents the Brief Hospital Course (BHC).
+-  **Note on Data Access**: Due to MIMIC-IV data use agreements, the dataset cannot be publicly shared. Users must obtain their own license through PhysioNet and place the processed data in the `clin-bhc-summ/` directory.
+
 
 ------
 
