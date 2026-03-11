@@ -1,0 +1,2 @@
+In these folders, you are supposed to put the dataset (after cleaning) into clin-bhc-summ\models\data
+as tok files. And set the models into clin-bhc-summ\models\data. The final resultes will generate into clin-bhc-summ-main\clin-bhc-summ\results.
